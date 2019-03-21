@@ -53,8 +53,8 @@ public class RandonStarTrekPhrases {
 		verbs.add("initialize"); 
 		verbs.add("reset");
 		verbs.add("repair");
-		verbs.add("initiate");
-		verbs.add("install");
+		verbs.add("initiate"); 
+		verbs.add("install"); 
 		verbs.add("destroy");
 		verbs.add("adjust");
 		verbs.add("align");
