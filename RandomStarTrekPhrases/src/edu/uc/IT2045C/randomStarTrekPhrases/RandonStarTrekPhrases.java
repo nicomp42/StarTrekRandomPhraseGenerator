@@ -50,7 +50,7 @@ public class RandonStarTrekPhrases {
 	}
 	private void initVerbs(){
 		verbs.add("calibrate");
-		verbs.add("initialize");
+		verbs.add("initialize"); 
 		verbs.add("reset");
 		verbs.add("repair");
 		verbs.add("initiate");
