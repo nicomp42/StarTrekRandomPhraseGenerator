@@ -76,8 +76,8 @@ public class RandonStarTrekPhrases {
 		adjectives.add("subspace");
 		adjectives.add("hyperspace");
 		adjectives.add("top secret");
-		
-		
+		adjectives.add("deep space");
+		adjectives.add("digital");
 	}
 	private void initNouns(){
 		nouns.add("thrusters");
@@ -105,7 +105,11 @@ public class RandonStarTrekPhrases {
 		nouns.add("tractor beam");
 		nouns.add("universal translator");
 		nouns.add("cloaking device");
-		
+		nouns.add("landing party");
+		nouns.add("captian's log");
+		nouns.add("Vulcan homeworld");
+		nouns.add("Borg mothership");
+		nouns.add("sickbay");
 	}
 	/**
 	 * Return a representation of the current object in string form
