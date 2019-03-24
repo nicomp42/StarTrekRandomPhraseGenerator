@@ -14,19 +14,19 @@ package edu.uc.IT2045C.randomStarTrekPhrases;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class RandonStarTrekPhrases {
+public class RandomStarTrekPhrases {
 
 	static ArrayList<String> verbs;
 	static ArrayList<String> nouns;
 	static ArrayList<String> adjectives;
 	private Random random;
 	
-	public RandonStarTrekPhrases(Random random) {
+	public RandomStarTrekPhrases(Random random) {
 		this.random = random;
 		initWordLists();
 	}
 	
-	public RandonStarTrekPhrases() {
+	public RandomStarTrekPhrases() {
 		this.random = new Random();	// Truly random
 		initWordLists();
 	}
@@ -150,7 +150,7 @@ public class RandonStarTrekPhrases {
 	 */
 	@SuppressWarnings("unchecked")		// We are absolutely certain that nouns is of type ArrayList<String>
 	public static ArrayList<String> getNouns() {
-		return (ArrayList<String>) RandonStarTrekPhrases.nouns.clone();	// A deep copy or a shallow copy?
+		return (ArrayList<String>) RandomStarTrekPhrases.nouns.clone();	// A deep copy or a shallow copy?
 	}
 	/**
 	 * ToDo complete this

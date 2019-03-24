@@ -9,7 +9,7 @@ package edu.uc.IT2045C.randomStarTrekPhrases;
 public class Main {
 
 	public static void main(String[] args) {
-		RandonStarTrekPhrases rstp = new RandonStarTrekPhrases();
+		RandomStarTrekPhrases rstp = new RandomStarTrekPhrases();
 		
 		String phrase = rstp.buildPhrase();
 		
