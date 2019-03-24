@@ -64,6 +64,7 @@ public class RandonStarTrekPhrases {
 		verbs.add("recalibrate");
 		verbs.add("scan");
 		verbs.add("reprogram");
+		verbs.add("analyze");
 	}
 	
 	private void initAdjectives(){
@@ -93,6 +94,7 @@ public class RandonStarTrekPhrases {
 		nouns.add("disruptors");
 		nouns.add("saucer section");
 		nouns.add("warp drive");
+		nouns.add("transwarp drive");
 		nouns.add("beryllium sphere");
 		nouns.add("dilithium crystals");
 		nouns.add("holodeck");
@@ -110,6 +112,8 @@ public class RandonStarTrekPhrases {
 		nouns.add("Vulcan homeworld");
 		nouns.add("Borg mothership");
 		nouns.add("sickbay");
+		nouns.add("nacelles");
+		nouns.add("shields");
 	}
 	/**
 	 * Return a representation of the current object in string form

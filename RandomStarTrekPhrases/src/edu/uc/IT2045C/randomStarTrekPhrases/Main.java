@@ -1,11 +1,10 @@
 /***********************************************
- * Random Phrase Generator
+ * Star Trek Random Phrase Generator
  * Bill Nicholson
  * nicholdw@ucmail.uc.edu
  * 
  ***********************************************/
 package edu.uc.IT2045C.randomStarTrekPhrases;
-
 
 public class Main {
 
@@ -17,5 +16,4 @@ public class Main {
 		System.out.println(phrase);
 
 	}
-
 }
